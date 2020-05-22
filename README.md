@@ -9,4 +9,4 @@ It should be powered with small source.
   * **Two 1.5V coin batteries**--->These are the smallest batteries we can get. So we use these batteries to power the circuit.
   * **TTP223 Touch Pad** ---> It is really simple to use TTP223 touch pad, which is small in size and does not reqiure any microcontroller. Its range is upto 5V.The output pin is directly connected to led and other two pins are connected to battery.This touch pad is placed inner part of the ring and outer part is coated with non conducting material.So that when the person wears it the led glows.
   
-https://www.google.com/url?sa=i&url=https%3A%2F%2Frobu.in%2Fproduct%2Fttp223-touch-key-module-2pcs%2F&psig=AOvVaw1GQMQC0WjYeCf1I-geMpfn&ust=1590245648817000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKjr6vbcx-kCFQAAAAAdAAAAABAD
+![image](https://user-images.githubusercontent.com/62617598/82681812-ef648f00-9c6b-11ea-8b9f-cfb63b3c492c.png)
