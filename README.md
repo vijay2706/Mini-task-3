@@ -8,9 +8,6 @@
   * **LED**
   * **Two 1.5V coin batteries**--->These are the smallest batteries we can get. So we use these batteries to power the circuit.
   * **TTP223 Touch Pad** ---> It is really simple to use TTP223 touch pad, which is small in size(15mm x 11mm) and does not reqiure any microcontroller. Its range is upto 5V.The output pin is directly connected to led and other two pins are connected to battery.This touch pad is placed inner part of the ring and outer part is coated with non conducting material.So that when the person wears it the led glows.
- Here is the image.,
-  
-![image](https://user-images.githubusercontent.com/62617598/82681812-ef648f00-9c6b-11ea-8b9f-cfb63b3c492c.png)
 
 # Control Systems for Reinforcement Learning - Hexapod
 ### Microcontroller:
@@ -23,6 +20,7 @@ The easiest way to achieve this is to change the UNO to MEGA. MEGA and UNO are c
 * The MPU6050 is interfaced with the microcontroller through the I2C protocol. But the problem with the set-up is that all MPU6050 have the same address of 0x68.
 * For this purpose, the MPU6050 has a AD0 pin which allows the address to be changed when there are more than one MPU6050 used in a circuit. When AD1 is made high, the address of the MPU6050 becomes 0x69.
 * Thus all MCU6050 pins have their AD0 pin at default HIGH. When a particular MCU6050 wants to communicate, its AD0 pin becomes LOW. Thus the microcontroller receives information from the device which has an address 0x68. This way, only one IMU sensor has the address 0x68 at a time.
-
+### Pipeline:
+Movement of the bot => Captured by IMU sensors => Processed by using Arduino and feeding it to AutoCAD software => The AutoCAD software now contains the orientation of the bot.
  
 
